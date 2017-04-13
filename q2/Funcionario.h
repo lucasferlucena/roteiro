@@ -7,7 +7,7 @@ private:
 	float sal;
 	std::string nome;
 public:
-	void setNome(std::string);
+	void setNome(std::string n){nome = n;}
 	void setMat(int m){mat = m;}
 	void setSal(float s){sal = s;}
 	
