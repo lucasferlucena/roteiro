@@ -11,7 +11,7 @@ public:
 	Trabalhador();
 	~Trabalhador();
 
-	virtual void calcularPagamento(int h) = 0;
+	virtual void calcularPagamento(int h)=0;
 	
 	void setNome(std::string);
 	void setSalarioM(float);

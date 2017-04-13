@@ -12,6 +12,9 @@ TrabalhadorAssalariado::~TrabalhadorAssalariado(void){}
 
 void TrabalhadorAssalariado::calcularPagamento(int h){
 	
-	setSalarioM(5.8562*160);
-
+	if(h>=40)
+		setSalarioM(5.8562*160);
+	else
+		setSalarioM(0);
+	
 }
